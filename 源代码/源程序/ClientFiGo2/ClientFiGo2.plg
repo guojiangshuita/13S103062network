@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ClientFiGo2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADF3F2~1.TOM\LOCALS~1\Temp\RSP60.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ClientFiGo2.pdb" /debug /machine:I386 /out:"Debug/ClientFiGo2.exe" /pdbtype:sept 
+".\Debug\ClientFiGo2.obj"
+".\Debug\ClientFiGo2Dlg.obj"
+".\Debug\ClientSock.obj"
+".\Debug\StdAfx.obj"
+".\Debug\XXSock.obj"
+".\Debug\ClientFiGo2.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADF3F2~1.TOM\LOCALS~1\Temp\RSP60.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+ClientFiGo2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

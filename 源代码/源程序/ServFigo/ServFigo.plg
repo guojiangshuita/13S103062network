@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ServFigo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ServFigo.res" /d "_DEBUG" /d "_AFXDLL" "D:\计算机网络\课程设计\3107006777何就财\源程序\ServFigo\ServFigo.rc"" 
+Creating temporary file "C:\DOCUME~1\ADF3F2~1.TOM\LOCALS~1\Temp\RSP62.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ServFigo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\计算机网络\课程设计\3107006777何就财\源程序\ServFigo\ServerSock.cpp"
+"D:\计算机网络\课程设计\3107006777何就财\源程序\ServFigo\ServFigo.cpp"
+"D:\计算机网络\课程设计\3107006777何就财\源程序\ServFigo\ServFigoDlg.cpp"
+"D:\计算机网络\课程设计\3107006777何就财\源程序\ServFigo\XXSock.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADF3F2~1.TOM\LOCALS~1\Temp\RSP62.tmp" 
+Creating temporary file "C:\DOCUME~1\ADF3F2~1.TOM\LOCALS~1\Temp\RSP63.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ServFigo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\计算机网络\课程设计\3107006777何就财\源程序\ServFigo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADF3F2~1.TOM\LOCALS~1\Temp\RSP63.tmp" 
+Creating temporary file "C:\DOCUME~1\ADF3F2~1.TOM\LOCALS~1\Temp\RSP64.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ServFigo.pdb" /debug /machine:I386 /out:"Debug/ServFigo.exe" /pdbtype:sept 
+".\Debug\ServerSock.obj"
+".\Debug\ServFigo.obj"
+".\Debug\ServFigoDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\XXSock.obj"
+".\Debug\ServFigo.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADF3F2~1.TOM\LOCALS~1\Temp\RSP64.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ServerSock.cpp
+ServFigo.cpp
+ServFigoDlg.cpp
+XXSock.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ServFigo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
